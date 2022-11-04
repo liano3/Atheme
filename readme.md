@@ -12,7 +12,7 @@
 
 ## 使用方法
 
-1. 下载源码，地址：[liano3/typora_theme:(github.com)](https://github.com/liano3/typora_theme)
+1. 下载源码，地址：[liano3/Atheme:(github.com)](https://github.com/liano3/Atheme)
 2. 解压压缩包，得到文件夹 atheme，文件 atheme.css、atheme-dark.css
 3. 把上面的文件全部放入 typora 主题文件夹(`文件->偏好设置->外观->打开主题文件夹`)
 4. 安装 `atheme/fonts` 文件夹下的所有字体(右键全选，安装)
