@@ -633,7 +633,7 @@ div[alt="fig"] {
 #write ul>li:not(.tab):before,
 #write .ul>.li:not(.tab):before {
     margin-left: -22px;
-    margin-top: 10px;
+    margin-top: 9px;
     width: .62em;
     height: .62em;
     border: .1em solid var(--ulol-color);
@@ -678,20 +678,6 @@ div[alt="fig"] {
     text-align: center;
     font-size: .65em;
     line-height: 1.60em;
-}
-#write ul li *,
-#write ol li *,
-#write .ul .li *,
-#write .ol .li * {
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-#write ul li,
-#write ol li,
-#write .ul .li,
-#write .ol .li {
-    margin-top: 5px;
-    margin-bottom: 5px;
 }
 details {
     display: block;
