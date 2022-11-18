@@ -214,10 +214,10 @@ h2:before {
 h2 * {
     margin-left: .18rem;
 }
-#write>h2.md-focus:before {
+#write>h2:hover:before {
     color: var(--focus-color);
 }
-#write>h2.md-focus {
+#write>h2:hover {
     border-bottom-color: var(--focus-color);
 }
 .about-content-description h2:before {
@@ -243,15 +243,15 @@ h4 {
     border: 1px solid var(--titlebefore-color);
     border-top: 4px solid var(--titlebefore-color);
 }
-#write>h3.md-focus:before,
-#write>h4.md-focus:before {
+#write>h3:hover:before,
+#write>h4:hover:before {
     width: auto;
     height: auto;
     background-color: var(--focus-color);
     color: #ffffff;
 }
-#write>h3.md-focus,
-#write>h4.md-focus {
+#write>h3:hover,
+#write>h4:hover {
     border-color: var(--focus-color);
 }
 #write h5::before,
@@ -266,8 +266,8 @@ h4 {
     white-space: nowrap;
     border: 0;
 }
-#write h5.md-focus:before,
-#write h6.md-focus:before {
+#write h5:hover:before,
+#write h6:hover:before {
     color: var(--focus-color);
 }
 #write h5,
@@ -568,19 +568,19 @@ hr {
 .mathjax-block>.code-tooltip {
     bottom: .375rem;
 }
-#write>h3.md-focus:before {
+#write>h3:hover:before {
     left: -1.5625rem;
     top: .375rem;
 }
-#write>h4.md-focus:before {
+#write>h4:hover:before {
     left: -1.5625rem;
     top: .285714286rem;
 }
-#write>h5.md-focus:before {
+#write>h5:hover:before {
     left: -1.5625rem;
     top: .285714286rem;
 }
-#write>h6.md-focus:before {
+#write>h6:hover:before {
     left: -1.5625rem;
     top: .285714286rem;
 }
