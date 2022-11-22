@@ -74,3 +74,8 @@
 .cm-s-inner .cm-tag.cm-bracket {
   color: #abb2bf !important;
 }
+
+[md-inline='inline_math'] {
+  color: orange !important;
+  font-size: 100%;
+}

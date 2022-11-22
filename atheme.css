@@ -4,7 +4,7 @@
     /* dy color */
     --select-text-bg-color: #ffafa3; /* 文本选中背景色（粉红） */
     /*--primary-color: red;*/
-    --bg-color: white; /* 整体背景色（白色） */
+    --bg-color: rgb(248, 248, 248); /* 整体背景色（白色） */
     --sidebarbg-color: #eee; /* 侧边栏背景色（灰色） */
     --focus-color: #ff5d52; /* 点击某些元素（如标题）显示的颜色（偏红） */
     --codeblockbg-color: rgba(238, 238, 238, 0.2); /* 代码块背景色（灰色） */
@@ -51,8 +51,8 @@
     --yamlbg-color: #f7f7f7; /* 头部YAML背景色（白色） */
     --yaml-color: #585858; /* 头部YAML字体颜色（黑色） */
     /* dy font */
-    --body-font: Times, '思源黑体 CN', sans-serif; /* 全局字体*/
+    --body-font: '思源黑体 CN', sans-serif;
     --code-font: 'Consolas', '思源宋体', monospace; /* 代码块以及行内代码字体 */
     /* bg image */
-    --bgimg-url: url(./bg-light.gif);
+    /* --bgimg-url: url(./bg-light.gif); */
 }
