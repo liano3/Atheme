@@ -13,7 +13,7 @@
     --titlebefore-color: #00c4b6; /* 各级标题点缀颜色（绿色） */
     --codeblocknum-color: rgba(128, 128, 255, 0.8); /* 代码块行编号颜色（蓝色） */
     --blockquoteicon-color: #5fa7e4; /* blockquote提示图标色（蓝色） */
-    --blockquotebg-color: rgba(230, 230, 250, 0.4); /* blockquote背景色（淡蓝） */
+    --blockquotebg-color: rgba(230, 230, 250, 0.2); /* blockquote背景色（淡蓝） */
     --ulol-color: #81accf; /* 有序无序列表前缀颜色（灰色） */
     --olfore-color: #fff; /* 有序列表字体颜色（白色） */
     --tableevenrow-color: rgba(238, 238, 238, 0.4); /* 表格偶数行颜色（淡灰） */

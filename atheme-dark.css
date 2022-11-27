@@ -104,7 +104,7 @@
     --code-font: 'Consolas', '思源宋体', monospace;
     /* 代码块以及行内代码字体 */
     /* bg image */
-    --bgimg-url: url(./bg-dark.gif);
+    /* --bgimg-url: url(./bg-dark.gif); */
 }
 
 img {
