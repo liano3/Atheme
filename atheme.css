@@ -4,7 +4,7 @@
     /* dy color */
     --select-text-bg-color: #ffafa3; /* 文本选中背景色（粉红） */
     /*--primary-color: red;*/
-    --bg-color: rgb(248, 248, 248); /* 整体背景色（白色） */
+    --bg-color: #fff; /* 整体背景色（白色） */
     --sidebarbg-color: #eee; /* 侧边栏背景色（灰色） */
     --focus-color: #ff5d52; /* 点击某些元素（如标题）显示的颜色（偏红） */
     --codeblockbg-color: rgba(238, 238, 238, 0.2); /* 代码块背景色（灰色） */
