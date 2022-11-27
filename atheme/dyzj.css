@@ -394,22 +394,6 @@ table tr td:last-child {
 table tr:hover {
     background-color: var(--tablefocusrow-color);
 }
-div[alt="notitle-table"] table {
-    font-size: 11pt;
-}
-div[alt="notitle-table"] table tr,
-div[alt="notitle-table"] table tr th,
-div[alt="notitle-table"] table tr:hover {
-    background-color: var(--bg-color);
-}
-div[alt="notitle-table"] table tr td:hover,
-div[alt="notitle-table"] table tr th:hover {
-    background-color: var(--tablefocusrow-color);
-}
-div[alt="notitle-table"] table tr th,
-div[alt="notitle-table"] table tr td {
-    padding: 0px 8px;
-}
 #write .CodeMirror pre {
     font-family: var(--code-font);
     font-weight: 500;
@@ -445,7 +429,7 @@ div[alt="notitle-table"] table tr td {
     padding-left: 0 !important;
 }
 [md-inline='inline_math'] {
-    color: blue;
+    color:blue;
     font-size: 100%;
 }
 @media only screen and (max-width: 800px) {
@@ -507,46 +491,6 @@ hr {
 }
 .md-task-list-item>input {
     margin-left: -1.3em;
-    margin-top: 0.4rem;
-}
-.md-task-list-item>input:before {
-    content: '';
-    display: inline-block;
-    width: 0.875rem;
-    height: 0.875rem;
-    vertical-align: middle;
-    text-align: center;
-    font-size: 0.8rem;
-    color: white;
-    border-radius: 2px;
-    border: 1px solid var(--taskborder-color);
-    margin-top: -0.4rem;
-    transition: all 0.2s linear;
-}
-.md-task-list-item>input:checked:before,
-.md-task-list-item>input[checked]:before {
-    content: '\2714';
-    font-size: 0.625rem;
-    color: white;
-    border: 1px solid var(--taskfocus-color);
-    background-color: var(--taskfocus-color);
-    line-height: .8rem;
-}
-.md-task-list-item:before {
-    content: none !important;
-}
-#write input[type=checkbox] {
-    position: absolute;
-    top: 6px;
-    left: -6px;
-    background-color: inherit;
-}
-.md-task-list-item.task-list-done {
-    text-decoration: line-through;
-    color: #999;
-}
-.md-task-list-item.task-list-done span {
-    color: #999;
 }
 .md-diagram-panel svg {
     height: inherit !important;
@@ -591,11 +535,6 @@ hr {
     cursor: default;
     border-left: 0;
     border-right: 0;
-}
-div[alt="fig"] {
-    font-size: small;
-    text-align: center;
-    margin-top: -10px !important;
 }
 .md-tag {
     color: inherit;
@@ -674,158 +613,6 @@ div[alt="fig"] {
     font-size: .65em;
     line-height: 1.60em;
 }
-details {
-    display: block;
-    padding: 16px;
-    margin: 1em 0;
-    border-radius: 4px;
-    background: var(--bg-color);
-    font-size: 14px;
-    transition: all .28s ease;
-    border: 1px solid var(--bg-color);
-}
-summary {
-    display: list-item;
-}
-details summary {
-    cursor: pointer;
-    padding: 16px;
-    margin: -16px;
-    border-radius: 4px;
-    color: var(--detailstxt-color);
-    font-size: .875rem !important;
-    font-weight: bold;
-    position: relative;
-    line-height: normal;
-}
-details>summary {
-    background: var(--detailsbg-color);
-}
-details[open] {
-    border-color: var(--detailsborder-color);
-}
-details[open]>summary {
-    color: #444;
-    margin-bottom: 0;
-}
-details[open]>summary {
-    border-bottom: 1px solid var(--detailsborder-color);
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
-}
-summary:focus {
-    outline: none !important;
-}
-video:focus {
-    outline: none !important;
-}
-audio:focus {
-    outline: none !important;
-}
-@-webkit-keyframes rainbowan {
-    to {
-        background-position: -2000vw;
-    }
-}
-@keyframes rainbowan {
-    to {
-        background-position: -2000vw;
-    }
-}
-span[alt="rainbow"],
-span[alt="rainbow"] * {
-    padding-top: 3px;
-    background-image: linear-gradient(to left, orangered, orange, gold, lightgreen, cyan, dodgerblue, mediumpurple, hotpink, orangered);
-    background-size: 110vw;
-    background-clip: text;
-    color: transparent;
-    animation: rainbowan 60s linear infinite;
-}
-div[alt="timeline"] {
-    margin-top: 8px;
-    margin-left: 8px;
-}
-div[alt="timenode"] {
-    position: relative;
-}
-div[alt="timenode"]:after,
-div[alt="timenode"]:before {
-    content: "";
-    z-index: 1;
-    position: absolute;
-    background: rgba(68, 215, 182, .5);
-    width: 2px;
-    left: 7px;
-}
-div[alt="timenode"]:before {
-    top: 0px;
-    height: 6px;
-}
-div[alt="timenode"] div[alt="body"],
-div[alt="timenode"] div[alt="meta"] {
-    max-width: calc(100% - 24px);
-}
-div[alt="timenode"] div[alt="meta"] {
-    position: relative;
-    color: var(--para-color);
-    line-height: 32px;
-    font-size: .8rem;
-    font-weight: bold;
-    margin: 0 0 0 24px;
-}
-div[alt="timenode"] div[alt="meta"]:after,
-div[alt="timenode"] div[alt="meta"]:before {
-    content: "";
-    position: absolute;
-    top: 8px;
-    z-index: 2;
-    left: -24px;
-}
-div[alt="timenode"] div[alt="meta"]:before {
-    background: rgba(68, 215, 182, .5);
-    width: 16px;
-    height: 16px;
-    border-radius: 8px;
-}
-div[alt="timenode"] div[alt="meta"]:after {
-    background: #44d7b6;
-    margin-left: 2px;
-    margin-top: 2px;
-    width: 12px;
-    height: 12px;
-    border-radius: 6px;
-    transform: scale(.5);
-}
-div[alt="timenode"] div[alt="body"] {
-    margin: 4px 0 10px 24px;
-    padding: 10px;
-    border-radius: 12px;
-    background: var(--timebodybg-color);
-    display: inline-block;
-    font-size: .9rem;
-}
-div[alt="timenode"]:not(:last-child):after {
-    top: 26px;
-    height: calc(100% - 26px);
-}
-div[alt="timenode"]:last-child:after {
-    top: 26px;
-    height: calc(100% - 30px);
-}
-div[alt="timenode"]:hover div[alt="meta"] {
-    color: var(--para-color);
-}
-div[alt="timenode"]:hover div[alt="meta"]:before {
-    background: rgba(255, 87, 34, .5)
-}
-div[alt="timenode"]:hover div[alt="meta"]:after {
-    background: #ff5722;
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -o-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-}
 .footnotes.md-def-link .md-def-split,
 .footnotes .md-def-url {
     display: none;
@@ -851,12 +638,10 @@ kbd {
         font-size: 15px !important;
         font-family: Times, '思源宋体', serif !important;
     }
-
     pre {
         page-break-inside: avoid;
         word-wrap: break-word;
     }
-
     .MathJax_SVG_Display svg {
         max-width: 100% !important;
     }
