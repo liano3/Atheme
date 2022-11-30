@@ -222,13 +222,13 @@ h6:hover:before {
 }
 h2:hover,
 h3:hover,
-h4:hover {
+h4:hover{
     border-color: var(--focus-color);
 }
 h5::before,
 h6::before {
     position: absolute;
-    right: calc(100% + .75em);
+    right: calc(100% + .55em);
     top: 0;
     color: var(--titlebefore-color);
     font-size: 0.8rem;
@@ -248,6 +248,14 @@ h5::before {
 h6::before {
     content: 'h6';
     top: 0.18rem;
+}
+#write>h5.md-focus:before {
+    left: -1.5625rem;
+    top: .285714286rem;
+}
+#write>h6.md-focus:before {
+    left: -1.5625rem;
+    top: .285714286rem;
 }
 p,
 blockquote,
@@ -387,7 +395,7 @@ table tr:hover {
     font-size: 100%;
 }
 /* front-matter */
-pre.md-meta-block {
+#write pre.md-meta-block {
     font-family: var(--body-font);
     color: var(--yaml-color) !important;
     padding: 15px;
