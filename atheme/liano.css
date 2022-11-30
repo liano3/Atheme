@@ -14,7 +14,7 @@ body {
 #write {
     max-width: 950px;
     margin: 60px auto;
-    padding: 80px 100px 160px;
+    padding: 6% 9% 10%;
     background-color: var(--write-color);
     border-radius: 50px;
     box-shadow: #84A1A8 0px 8px 10px;
