@@ -3,6 +3,7 @@
 /* 页面 */
 html {
     font-size: 18px;
+    background-color: var(--bg-color);
     -webkit-font-smoothing: antialiased;
 }
 body {
@@ -11,9 +12,12 @@ body {
     line-height: 1.6rem;
 }
 #write {
-    max-width: 860px;
-    margin: 0 auto;
-    padding: 20px 30px 160px;
+    max-width: 950px;
+    margin: 60px auto;
+    padding: 80px 100px 160px;
+    background-color: var(--write-color);
+    border-radius: 50px;
+    box-shadow: #84A1A8 0px 8px 10px;
 }
 /* 段落 */
 #write p {
@@ -416,8 +420,12 @@ hr {
 .cm-s-inner .cm-string {
     color: #22a2c9;
 }
+/* 任务列表 */
 .md-task-list-item>input {
     margin-left: -1.3em;
+}
+.md-task-list-item:before {
+    content: none !important;
 }
 .mathjax-block>.code-tooltip {
     bottom: .375rem;
@@ -440,10 +448,13 @@ img:hover {
     border-bottom: none;
 }
 #typora-sidebar {
-    background-color: var(--sidebarbg-color);
+    background-color: var(--write-color);
 }
 .outline-content {
+    margin: 20px 20px 20px;
     background-color: var(--sidebarbg-color);
+    border-radius: 30px;
+    box-shadow: #84A1A8 0px 10px 15px;
 }
 .outline-item {
     font-size: 16px;
@@ -521,5 +532,11 @@ img:hover {
     pre {
         page-break-inside: avoid;
         word-wrap: break-word;
+    }
+    #write {
+        background: var(--write-color) !important;
+        box-shadow: none !important;
+        margin: 0 auto !important;
+        padding: 20px 30px 160px !important;
     }
 }
