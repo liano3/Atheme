@@ -430,7 +430,6 @@ img:hover {
     background-color: var(--write-color);
 }
 .outline-content {
-    margin: 5% 0 5%;
     background-color: var(--sidebarbg-color);
     border-radius: 30px;
     box-shadow: #84A1A8 0px 10px 15px;
