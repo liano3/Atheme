@@ -29,50 +29,21 @@ body {
     margin-top: 30px;
 }
 /* 链接 */
-#write a {
+a {
     border-bottom: 2px solid var(--abottom-color);
     padding: 0 4px;
     transition: .5s;
     color: var(--atext-color);
     text-decoration: none;
 }
-#write a span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-}
-#write a span:after {
-    content: '»';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-}
-#write a:hover {
+a:hover {
     border-radius: 6px;
     background-color: var(--abottom-color);
     cursor: pointer;
 }
-#write a:hover span {
-    padding-right: 25px;
-}
-#write a:hover span:after {
-    opacity: 1;
-    right: 0;
-}
-#write h2 a,
-#write h4 a {
+h2 a,
+h4 a {
     border-bottom: none !important;
-}
-h2 a:hover:before,
-h4 a:hover:before {
-    content: none !important;
-}
-#write a:empty {
-    padding-left: 0px;
-    padding-right: 0px;
 }
 /* 目录 */
 #write a.md-toc-inner {
