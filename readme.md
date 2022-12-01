@@ -18,7 +18,7 @@
 
 ## 使用方法
 
-1. 下载源码，地址：[liano3/Atheme:(github.com)](https://github.com/liano3/Atheme)
+1. 下载源码，地址：[liano3/Atheme:(github.com)](https://github.com/liano3/Atheme/archive/refs/heads/main.zip)
 2. 解压压缩包，得到文件夹 atheme，文件 atheme.css、atheme-dark.css
 3. 把上面的 `文件夹atheme`，文件 `atheme.css`, `atheme-dark.css` 全部放入 typora 主题文件夹(文件->偏好设置->外观->打开主题文件夹)
 <img src="readme.assets/image-20221130112424163.png" alt="image-20221130112424163" style="zoom:80%;" />
