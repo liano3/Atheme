@@ -26,6 +26,8 @@
     --abottom-color: #81d8cf;/* 超链接下划线颜色 */
     --code-color: #ff3502;/* 行内代码前景色 */
     --codebg-color: #263238;/* 行内代码背景色 */
+    --highlight-color: red; /* 高亮文本前景色 */
+    --highlightbg-color: yellow;/* 高亮文本背景色 */
     --split-color: #00c4b6; /* 分割线颜色 */
     --body-color: #e6e6e6;/* 文本颜色 */
     --para-color: #a9a9a9;/* 段落文本颜色 */
