@@ -79,3 +79,11 @@
   color: orange !important;
   font-size: 100%;
 }
+
+.md-rawblock-control:not(.md-rawblock-tooltip) {
+  background: #262626 !important;
+}
+
+.md-math-container:hover {
+  background: #555 !important;
+}
