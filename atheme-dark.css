@@ -2,7 +2,7 @@
 @import url(./atheme/darkcode.css);
 :root {
     --select-text-bg-color: #6e7b99;/* 文本选中背景色 */
-    --bg-color: #262626;/* 整体背景色 */
+    --bg-color: #121212;/* 整体背景色 */
     --write-color: #262626; /* 书写区背景色 */
     --sidebarbg-color: #1a1a1a;/* 侧边栏背景色 */
     --focus-color: #ff5d52;/* 点击某些元素（如标题）显示的颜色 */
