@@ -248,7 +248,7 @@ ol:last-child {
 }
 /* 引用块 */
 blockquote {
-    border: 1px solid var(--blockquoteicon-color);
+    border-left: 2px solid var(--blockquoteicon-color);
     padding: 4px 15px;
     color: #666666;
     background-color: var(--blockquotebg-color);
@@ -494,6 +494,11 @@ img:hover {
     text-align: center;
     font-size: .65em;
     line-height: 1.60em;
+}
+/* 滚动条 */
+::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-color) !important;
+    background-clip: padding-box;
 }
 /* 打印 */
 @media print {

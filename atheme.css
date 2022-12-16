@@ -10,8 +10,8 @@
     --codeblockline-color: #e0f8f8;/* 代码块选中行颜色（青色） */
     --titlebefore-color: #00c4b6;/* 各级标题点缀颜色（绿色） */
     --codeblocknum-color: rgba(128, 128, 255, 0.8);/* 代码块行编号颜色（蓝色） */
-    --blockquoteicon-color: #5fa7e4; /* blockquote提示图标色（蓝色） */
-    --blockquotebg-color: rgba(230, 230, 250, 0.2);/* blockquote背景色（淡蓝） */
+    --blockquoteicon-color: rgba(0, 196, 182, 0.8); /* blockquote提示图标色（绿色） */
+    --blockquotebg-color: rgba(238, 250, 240, 0.4);/* blockquote背景色（淡绿） */
     --ulol-color: #81accf;/* 有序无序列表前缀颜色（灰色） */
     --olfore-color: #fff;/* 有序列表字体颜色（白色） */
     --tableevenrow-color: rgba(238, 238, 238, 0.4);/* 表格偶数行颜色（淡灰） */
@@ -33,6 +33,6 @@
     --sidelist-selected-color: #eeeeee;/* 侧边栏条目选中背景色（灰色） */
     --yamlbg-color: #f7f7f7;/* 头部YAML背景色（白色） */
     --yaml-color: #585858;/* 头部YAML字体颜色（黑色） */
-    --body-font: '思源黑体 CN', sans-serif;/* 字体 */
+    --body-font: Times, '思源黑体 CN', sans-serif;/* 字体 */
     --code-font: 'Consolas', '思源宋体', monospace;/* 代码块以及行内代码字体 */
 }

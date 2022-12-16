@@ -18,7 +18,7 @@
     --tableevenrow-color: #1a1a1a;/* 表格偶数行颜色 */
     --tablefocusrow-color: #263238;/* 表格鼠标悬停行颜色 */
     --tableborder-color: #2f642e;/* 表格边框色 */
-    --tablethbg-color: #2f845e; /* 表格表头背景色 */
+    --tablethbg-color: rgba(199, 237, 204, 0.2); /* 表格表头背景色（淡绿） */
     --scrollbar-color: #2f845e;/* 滚动条颜色 */
     --toc-color: #00a0a0;/* 目录颜色 */
     --atext-color: #a9a9a9;/* 超链接文本颜色 */
